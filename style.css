@@ -9,7 +9,7 @@ Juan Miguel Montoya Galvis*/
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#f1f3f4;
+    background:#ffffff;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -47,7 +47,7 @@ p{
 
 
 .formulario{
-    background-color: white;
+    background-color: rgb(237, 254, 255);
     padding: 15px;
     margin: 5px;
     width: 300px;
@@ -99,4 +99,20 @@ button{
 #btnLimpiar{
   background:#bdbdbd;
   color:black;
+}
+
+.resultado{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+    h2{
+        color: black;
+        text-align: center;
+        align-items: center;
+    }
+}
+.nivel{
+    margin-top: 10px;
+    font-weight: 600;
 }
