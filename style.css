@@ -6,3 +6,97 @@ Juan Miguel Montoya Galvis*/
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f1f3f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+   
+}
+.contenedor{
+  width:300px;
+  padding:20px;
+  background:rgb(96, 177, 243);
+  border-radius:10px;
+  box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}    
+
+h1{
+    align-items: center;
+    color: black;
+}
+
+p{
+    align-items: center;
+    color: black;
+    margin-bottom:20px;
+
+}
+
+
+
+.formulario{
+    background-color: white;
+    padding: 15px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    gap: 20px;
+}
+
+.campo{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+
+
+    label{
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+
+    input{
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0.5 solid grey;
+        width: 100%;
+        font-size: 2rem;
+        padding-top:10px;
+        color: #0f0e41;
+        font-family: sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+button{
+  background:#6200ee;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+#btnCalcular{
+  background:#6200ee;
+  color:white;
+    
+}
+
+#btnLimpiar{
+  background:#bdbdbd;
+  color:black;
+}
