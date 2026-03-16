@@ -2,117 +2,104 @@
 Juan Miguel Montoya Galvis*/
 
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background:#ffffff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    margin:0;
-   
+font-family:Arial, Helvetica, sans-serif;
+background:#ffffff;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
 }
+
 .contenedor{
-  width:300px;
-  padding:20px;
-  background:rgb(96, 177, 243);
-  border-radius:10px;
-  box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+width:300px;
+padding:20px;
+background:rgb(96, 177, 243);
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-
-}    
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:20px;
+}
 
 h1{
-    align-items: center;
-    color: black;
+text-align:center;
+color:black;
 }
 
 p{
-    align-items: center;
-    color: black;
-    margin-bottom:20px;
-
+text-align:center;
+color:black;
+margin-bottom:20px;
 }
 
-
-
 .formulario{
-    background-color: rgb(237, 254, 255);
-    padding: 15px;
-    margin: 5px;
-    width: 300px;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    gap: 20px;
+background-color:rgb(237, 254, 255);
+padding:15px;
+margin:5px;
+width:100%;
+border-radius:5px;
+box-shadow:0px 0px 5px rgba(0,0,0,0.1);
 }
 
 .campo{
-    display:flex;
-    flex-direction:column;
-    margin-bottom:15px;
-
-
-    label{
-        font-family: sans-serif;
-        font-weight: 700;
-    }
-
-    input{
-        border-top: 0px;
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom: 0.5 solid grey;
-        width: 100%;
-        font-size: 2rem;
-        padding-top:10px;
-        color: #0f0e41;
-        font-family: sans-serif;
-        font-weight: 700;
-        text-align: center;
-    }
+display:flex;
+flex-direction:column;
+margin-bottom:15px;
 }
+
+.campo label{
+font-family:sans-serif;
+font-weight:700;
+}
+
+.campo input{
+border:none;
+border-bottom:0.5px solid grey;
+width:100%;
+font-size:1rem;
+padding-top:10px;
+color:#0f0e41;
+font-family:sans-serif;
+font-weight:700;
+text-align:center;
+}
+
 button{
-  background:#6200ee;
-  color:white;
-  border:none;
-  padding:10px 20px;
-  border-radius:5px;
-  cursor: pointer;
-}
-
-#btnCalcular{
-  background:#6200ee;
-  color:white;
-    
+background:#6200ee;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+margin-top:10px;
 }
 
 #btnLimpiar{
-  background:#bdbdbd;
-  color:black;
+background:#bdbdbd;
+color:black;
 }
 
 .resultado{
-    width: 100%;
-    text-align: center;
-    align-items: center;
-
-    h2{
-        color: black;
-        text-align: center;
-        align-items: center;
-    }
+width:100%;
+text-align:center;
 }
+
+.resultado h2{
+color:black;
+}
+
 .nivel{
-    margin-top: 10px;
-    font-weight: 600;
+margin-top:10px;
+font-weight:600;
+padding:10px;
+border-radius:5px;
 }
